@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Define a Function in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $.fn.myFunction = function(){
+        alert('You have successfully defined the function!');
+    }
+    $(".call-btn").click(function(){
+        $.fn.myFunction();
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button" class="call-btn">Click Me</button>
+</body>
+</html>

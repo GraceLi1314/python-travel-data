@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet" />
+    <link href="static/css/main.css" rel="stylesheet" />
+    <!--<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <script type = "text/javascript">
+      function fn1(){
+        var str = document.getElementById("choices-text-preset-values").value;
+        window.location.href = "travel?country="+str
+      }
+    </script>
+  </head>
+  <body>
+    <div class="s004">
+      <form action = "/travel">
+        <fieldset>
+          <legend>Where are you visiting?</legend>
+          <div class="inner-form">
+            <div class="input-field">
+              <input class="form-control" id="choices-text-preset-values" name = "country" type="text" placeholder="Hungary/Switzerland/Spain..." />
+
+              <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id = "btn-1" onclick = "fn1()" class="call-btn">Click Me</button>
+              </p>
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <span id = "message" style = "color:red">{{ message }}</span>
+               </p>
+            </div>
+          </div>
+          <div class="suggestion-wrap">
+            <span>Hotels</span>
+            <span>Nature</span>
+            <span>Restaurants</span>
+            <span>Places</span>
+            <span>HAPPY</span>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+<script src = "static/js/extention/choices.js"></script>
+<script>
+  var textPresetVal = new Choices('#choices-text-preset-values', {
+        removeItemButton : true,
+  });
+</script><!--
+   <script type = "text/javascript">
+   $(".form-control").blur(function(){
+      country = document.getElementById("choices-text-preset-values").value;
+   });
+         $(".call-btn").click(function(){
+              alert(country+"")
+          });
+   </script>-->
+</html>
