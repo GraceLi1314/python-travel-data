@@ -1,6 +1,5 @@
 # python-travel-data
-A project that visualises and analyses data related to the tourist attractions in Spain, Switzerland and Hungary.
-We use python to extract the data from a travelling website. 
+A project that visualises and analyses data related to the tourist attractions in Spain, Switzerland and Hungary. 
 
 <img width="860" alt="Screen Shot 2022-02-28 at 2 58 09 pm" src="https://user-images.githubusercontent.com/96395578/155921664-6dd10a82-14ad-4ae8-bb0e-1dfc6ae68340.png">
 The user can input here, the name of the country that they want to discover. More countries will be added as we develop the project further. 
