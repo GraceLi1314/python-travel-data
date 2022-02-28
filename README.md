@@ -18,3 +18,6 @@ Below the table, the user can see a map that indicates the locations of each pla
 <img width="723" alt="Screen Shot 2022-02-28 at 3 05 39 pm" src="https://user-images.githubusercontent.com/96395578/155922274-bafaf26b-d16f-4fd1-9047-0ab12eedbe15.png">
 
 Finally, a photo that shows the key features of each country. 
+
+For developer:
+  - if the developer would like to add more countries, they can run spider.py file and input the name of the country they want to generate the data. All the data will automatically be added to the table named 'travel'. The website's data is connected to the table 'travel', it will update automatically. 
