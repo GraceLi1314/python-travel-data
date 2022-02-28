@@ -7,7 +7,7 @@ The user can input here, the name of the country that they want to discover. Mor
 
 Then, the website will redirect the user to a page where there are tables of information regarding the top 8 tourist attractions in each country.
 
-<img width="1346" alt="Screen Shot 2022-02-28 at 3 02 10 pm" src="https://user-images.githubusercontent.com/96395578/155921988-9d3dae3b-d87a-4669-9e37-af51c9562ae5.png">
+<img width="846" alt="Screen Shot 2022-02-28 at 3 02 10 pm" src="https://user-images.githubusercontent.com/96395578/155921988-9d3dae3b-d87a-4669-9e37-af51c9562ae5.png">
 
 It is in Chinese as the project was originally developed for the convenience of my family. English version will be available in version 2.0.
 
