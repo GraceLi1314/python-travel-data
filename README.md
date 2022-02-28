@@ -11,7 +11,7 @@ Then, the website will redirect the user to a page where there are tables of inf
 
 It is in Chinese as the project was originally developed for the convenience of my family. English version will be available in version 2.0.
 
-<img width="704" alt="Screen Shot 2022-02-28 at 3 03 12 pm" src="https://user-images.githubusercontent.com/96395578/155922080-7a33933f-b9c8-403e-b37b-b082b1cf644a.png">
+<img width="604" alt="Screen Shot 2022-02-28 at 3 03 12 pm" src="https://user-images.githubusercontent.com/96395578/155922080-7a33933f-b9c8-403e-b37b-b082b1cf644a.png">
 
 Below the table, the user can see a map that indicates the locations of each place, so that they can estimate their travelling distance. 
 
