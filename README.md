@@ -1,5 +1,5 @@
 # python-travel-data
-A project that integrates the data about tourist attractions in Spain, Switzerland and Hungary.
+A project that visualises and analyses the data related to the tourist attractions in Spain, Switzerland and Hungary.
 We use python to scrape the data from the website http://www.mafengwo.cn. 
 
 <img width="860" alt="Screen Shot 2022-02-28 at 2 58 09 pm" src="https://user-images.githubusercontent.com/96395578/155921664-6dd10a82-14ad-4ae8-bb0e-1dfc6ae68340.png">
