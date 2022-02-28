@@ -15,6 +15,6 @@ It is in Chinese as the project was originally developed for the convenience of 
 
 Below the table, the user can see a map that indicates the locations of each place, so that they can estimate their travelling distance. 
 
-<img width="1023" alt="Screen Shot 2022-02-28 at 3 05 39 pm" src="https://user-images.githubusercontent.com/96395578/155922274-bafaf26b-d16f-4fd1-9047-0ab12eedbe15.png">
+<img width="723" alt="Screen Shot 2022-02-28 at 3 05 39 pm" src="https://user-images.githubusercontent.com/96395578/155922274-bafaf26b-d16f-4fd1-9047-0ab12eedbe15.png">
 
 Finally, a photo that shows the key features of each country. 
